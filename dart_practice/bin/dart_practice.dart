@@ -311,7 +311,7 @@ void main(){
   //var x = names.elementAt(2);
   //print(x);
    */
-  /******* 19: Dart set properties ********
+      /******* 19: Dart set properties ********
    * 1. First: It is used to get the first element in the given set.
    * 2. isEmpty: if the set does not contain any element, it returns true.
    * 3. isNotEmpty: If the set contains at least one element, it returns true
@@ -337,5 +337,15 @@ void main(){
   //print(myCitySet.single); // Bad state: Too many elements
   */
 
+  /************************** 20: Dart MAP ***************************************************
+   * Dart map is an object that sotores data in the form of a key-value pair.
+   * Each value is associate with its key, and it is used to access its corresponding value.
+   * Both keys and values can be any type.
+   * In Dart Map, each key must be unique, but the same value can occur multiple times.
+   * Dart Map can be defined in two methods.
+   * Using Map Literal.
+   * Using Map Constructor.
+   **********************************************************************************************/
+  
 
 }
