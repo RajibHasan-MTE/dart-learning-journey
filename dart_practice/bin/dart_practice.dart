@@ -278,8 +278,64 @@ void main(){
   myList.insertAll(2, [0, 0, 0]);
   print(myList);
    */
-  // 1:25:45
+  // 1:25:45 >> 22.10.2025 end
 
+  /******* 18: Dart SET ********
+   * The dart set is the unordered collection of the different values of the same type.
+   * It has much functionality, which is the same as an array, but it is unordered.
+   * Set doesn't allow storing the duplicate values.
+   * Set must contain unique values.
+   * The Dart provides the two methods add() and addAll() to insert an element into the given set.
+   *var names = <Generic>{"James", "Devansh", "Adam"};
+   */
+  //var names = <String>{"James", "Devansh", "Adam"};
+  //names.add("Jonathan");
+  //print(names);
+  //names.addAll({"A", "B"});
+  //print(names);
+  /*
+  var myCitySet = <String> {"Dhaka", "Barisal", "Coxbazar", "Dhaka"}; // Set not allow duplicate values
+  myCitySet.addAll({"Khulna", "Cumilla"});
+  print(myCitySet);
+   */
+
+  /******* 19: access the set element ********
+   * Dart provides the elementAt() method, which is used to access the item by passing its specified index positions
+   *
+   */
+  /*
+  var names = <String>{"James", "Raju", "Rajib"};
+  print(names);
+  names.clear(); // Clear set
+  print(names);
+  //var x = names.elementAt(2);
+  //print(x);
+   */
+  /******* 19: Dart set properties ********
+   * 1. First: It is used to get the first element in the given set.
+   * 2. isEmpty: if the set does not contain any element, it returns true.
+   * 3. isNotEmpty: If the set contains at least one element, it returns true
+   * 4. length: It returns the length of the given set.
+   * 5. last: It is used to get the last element in the given set.
+   * 6. hashcode: It is used to get the hash code for the corresponding object.
+   * 7. Single: It is used to check whether a set contains only one element.
+   */
+  /*
+  var myCitySet = <String>{"Dhaka", "Cumilla", "Barishal"};
+  print(myCitySet);
+  print("First: ");
+  print(myCitySet.first);
+  print("isEmpty: ");
+  print(myCitySet.isEmpty);
+  print("isNotEmpty: ");
+  print(myCitySet.isNotEmpty);
+  print("Last: ");
+  print(myCitySet.last);;
+  print("Hashcode: ");
+  print(myCitySet.hashCode);
+  //print("Single: ");
+  //print(myCitySet.single); // Bad state: Too many elements
+  */
 
 
 }
